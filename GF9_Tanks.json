@@ -1,0 +1,84 @@
+{
+  "gameSystem": {
+    "name": "GF9: Tanks",
+    "id": "dcae-d466-7fc2-0d70",
+    "battleScribeVersion": 2.03,
+    "revision": 1,
+    "type": "gameSystem",
+    "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
+    "categoryEntries": [
+      {"name": "Panther", "id": "ec54-8048-6c51-a561"},
+      {"name": "Jagdpanther", "id": "ab5c-5648-344c-1f22"},
+      {"name": "Panzer IV", "id": "a5e9-1cde-c0aa-5b67"},
+      {"name": "StuG G", "id": "b321-94f1-cb73-712c"},
+      {"name": "Sherman (75mm)", "id": "5e9b-b72f-a08d-a1e4"},
+      {"name": "Sherman (76mm)", "id": "c54c-ba29-9bdd-4445"},
+      {"name": "Pershing", "id": "016f-5ec2-7452-cdee"},
+      {"name": "Super Pershing", "id": "3b81-ef64-776f-8219"},
+      {"name": "Comet", "id": "cdf8-de53-d13e-0639"},
+      {"name": "Cromwell", "id": "fc2b-9556-8cef-3500"},
+      {"name": "Sherman Firefly", "id": "cc25-29b4-5371-ef53"},
+      {"name": "Sherman V", "id": "aefe-3643-2eba-d2d4"},
+      {"name": "T-34", "id": "7cdf-b5ac-eaa1-f696"},
+      {"name": "T-34/85", "id": "a879-e65f-ff43-93cd"},
+      {"name": "SU-85", "id": "7637-9924-a9bf-8762"},
+      {"name": "SU-100", "id": "d132-47ac-7f27-22e0"},
+      {"name": "ISU-122", "id": "8bbc-2df7-e7f5-60ca"},
+      {"name": "IS-2", "id": "8a00-b44d-a89c-fc04"},
+      {"name": "IS-85", "id": "5529-31f4-0a96-8009"},
+      {"name": "ISU-152", "id": "bac4-5aa3-361f-e4f7"}
+    ],
+    "costTypes": [{"name": "pts", "id": "points"}],
+    "forceEntries": [
+      {
+        "name": "Standard",
+        "id": "69f3-1d38-ec31-9ba7",
+        "categoryLinks": [
+          {"name": "Panther", "id": "69f3-1d38-ec31-9ba7-ec54-8048-6c51-a561", "targetId": "ec54-8048-6c51-a561"},
+          {"name": "Jagdpanther", "id": "69f3-1d38-ec31-9ba7-ab5c-5648-344c-1f22", "targetId": "ab5c-5648-344c-1f22"},
+          {"name": "Panzer IV", "id": "69f3-1d38-ec31-9ba7-a5e9-1cde-c0aa-5b67", "targetId": "a5e9-1cde-c0aa-5b67"},
+          {"name": "StuG G", "id": "69f3-1d38-ec31-9ba7-b321-94f1-cb73-712c", "targetId": "b321-94f1-cb73-712c"},
+          {"name": "Sherman (75mm)", "id": "69f3-1d38-ec31-9ba7-5e9b-b72f-a08d-a1e4", "targetId": "5e9b-b72f-a08d-a1e4"},
+          {"name": "Sherman (76mm)", "id": "69f3-1d38-ec31-9ba7-c54c-ba29-9bdd-4445", "targetId": "c54c-ba29-9bdd-4445"},
+          {"name": "Pershing", "id": "69f3-1d38-ec31-9ba7-016f-5ec2-7452-cdee", "targetId": "016f-5ec2-7452-cdee"},
+          {"name": "Super Pershing", "id": "69f3-1d38-ec31-9ba7-3b81-ef64-776f-8219", "targetId": "3b81-ef64-776f-8219"},
+          {"name": "Comet", "id": "69f3-1d38-ec31-9ba7-cdf8-de53-d13e-0639", "targetId": "cdf8-de53-d13e-0639"},
+          {"name": "Cromwell", "id": "69f3-1d38-ec31-9ba7-fc2b-9556-8cef-3500", "targetId": "fc2b-9556-8cef-3500"},
+          {"name": "Sherman Firefly", "id": "69f3-1d38-ec31-9ba7-cc25-29b4-5371-ef53", "targetId": "cc25-29b4-5371-ef53"},
+          {"name": "Sherman V", "id": "69f3-1d38-ec31-9ba7-aefe-3643-2eba-d2d4", "targetId": "aefe-3643-2eba-d2d4"},
+          {"name": "T-34", "id": "69f3-1d38-ec31-9ba7-7cdf-b5ac-eaa1-f696", "targetId": "7cdf-b5ac-eaa1-f696"},
+          {"name": "T-34/85", "id": "69f3-1d38-ec31-9ba7-a879-e65f-ff43-93cd", "targetId": "a879-e65f-ff43-93cd"},
+          {"name": "SU-85", "id": "69f3-1d38-ec31-9ba7-7637-9924-a9bf-8762", "targetId": "7637-9924-a9bf-8762"},
+          {"name": "SU-100", "id": "69f3-1d38-ec31-9ba7-d132-47ac-7f27-22e0", "targetId": "d132-47ac-7f27-22e0"},
+          {"name": "ISU-122", "id": "69f3-1d38-ec31-9ba7-8bbc-2df7-e7f5-60ca", "targetId": "8bbc-2df7-e7f5-60ca"},
+          {"name": "IS-2", "id": "69f3-1d38-ec31-9ba7-8a00-b44d-a89c-fc04", "targetId": "8a00-b44d-a89c-fc04"},
+          {"name": "IS-85", "id": "69f3-1d38-ec31-9ba7-5529-31f4-0a96-8009", "targetId": "5529-31f4-0a96-8009"},
+          {"name": "ISU-152", "id": "69f3-1d38-ec31-9ba7-bac4-5aa3-361f-e4f7", "targetId": "bac4-5aa3-361f-e4f7"}
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "1.1 Tank",
+        "id": "1608-9b63-32a3-014d",
+        "characteristicTypes": [
+          {"name": "Crew Slots", "id": "69d0-b24a-3442-a3ef"},
+          {"name": "Initiative", "id": "0f1a-0bd2-879f-d5c7"},
+          {"name": "Attack", "id": "99d0-f1c5-bfb4-bd7b"},
+          {"name": "Defence", "id": "be63-ff64-ba5b-c1a7"},
+          {"name": "Hull", "id": "069f-fec8-3c05-5536"}
+        ]
+      },
+      {"name": "2.1 Special Rules", "id": "853d-f931-3470-ba2d", "characteristicTypes": [{"name": "Special Rule", "id": "7c2c-4e06-515e-5698"}]},
+      {"name": "3.1 Crew: Commander", "id": "8482-2824-696e-d5ce", "characteristicTypes": [{"name": "Crew: Commander Ability", "id": "2c97-7aef-546c-7aab"}]},
+      {"name": "3.2 Crew: Gunner", "id": "a30c-26b6-2664-539a", "characteristicTypes": [{"name": "Crew: Gunner Ability", "id": "677f-3696-69cc-30fe"}]},
+      {"name": "3.3 Crew: Driver", "id": "3927-7310-5562-b500", "characteristicTypes": [{"name": "New Characteristic", "id": "c69e-64e6-e0fa-3b6f"}]},
+      {"name": "4.1 Upgrade: Ammo", "id": "da49-5409-84bf-5584", "characteristicTypes": [{"name": "Ammo Ability", "id": "217f-e003-7202-1fb0"}]},
+      {"name": "4.2 Upgrade: Engine", "id": "5abf-51c8-4787-8409", "characteristicTypes": [{"name": "Upgrade: Engine Ability", "id": "ee41-6082-4210-e823"}]},
+      {"name": "4.3 Upgrade: Armour", "id": "3ea3-8341-e8bf-1773", "characteristicTypes": [{"name": "Upgrade: Armour Ability", "id": "1535-b8f4-bb51-61a6"}]},
+      {"name": "3.4 Crew: Loader", "id": "3565-f1dc-14d1-0df3", "characteristicTypes": [{"name": "Crew: Loader Ability", "id": "be71-fe7b-ddb7-34f3"}]},
+      {"name": "3.5 Crew: Radio Op", "id": "4197-65d7-a914-50b9", "characteristicTypes": [{"name": "Crew: Radio Op Ability", "id": "c829-59ff-13e5-c078"}]},
+      {"name": "4.4 Upgrade: Equipment", "id": "f4f0-84f0-0dd9-c893", "characteristicTypes": [{"name": "Upgrade: Equipment Ability", "id": "99aa-04d2-4179-4567"}]}
+    ]
+  }
+}
