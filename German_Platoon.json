@@ -1,0 +1,1487 @@
+{
+  "catalogue": {
+    "name": "German Platoon",
+    "id": "6371-3ea3-aa04-bb40",
+    "authorContact": "gorka_morka@hotmail.co.uk",
+    "authorName": "Charles",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "dcae-d466-7fc2-0d70",
+    "gameSystemRevision": 1,
+    "revision": 5,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Jagdpanther",
+        "id": "8caf-e3a0-6c9a-0c17",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [{"id": "8caf-e3a0-6c9a-0c17-ab5c-5648-344c-1f22", "primary": true, "targetId": "ab5c-5648-344c-1f22"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 35}],
+        "entryLinks": [
+          {
+            "id": "08ec-6fef-915d-382d",
+            "targetId": "b727-97b0-14bd-9c81",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "repeats": [{"childId": "75ca-1327-3879-1bc7", "field": "selections", "repeats": 1, "scope": "8caf-e3a0-6c9a-0c17", "shared": true, "value": 1}]
+              }
+            ]
+          },
+          {"id": "5bf5-f2c1-dbe8-4d8b", "targetId": "2428-4f6c-fae2-dd78", "type": "selectionEntryGroup"},
+          {"id": "9a95-329b-79bb-4db0", "targetId": "4bda-64fa-37c1-f5fb", "type": "selectionEntryGroup"},
+          {"id": "c336-f57f-f630-0134", "targetId": "7bab-0b86-2b2f-f802", "type": "selectionEntryGroup"},
+          {"id": "e1dc-34b2-e4df-5091", "targetId": "6f10-2708-2b92-12eb", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [
+          {"id": "9cf9-e008-a414-a407", "targetId": "19ea-115a-c70f-b3a5", "type": "rule"},
+          {"id": "330f-2e68-eed1-9ecd", "targetId": "e242-8522-ef2a-7674", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Jagdpanther",
+            "id": "4f23-e694-0fd7-b297",
+            "hidden": false,
+            "typeId": "1608-9b63-32a3-014d",
+            "characteristics": [
+              {"name": "Crew Slots", "$text": "4", "typeId": "69d0-b24a-3442-a3ef"},
+              {"name": "Initiative", "$text": "6", "typeId": "0f1a-0bd2-879f-d5c7"},
+              {"name": "Attack", "$text": "6", "typeId": "99d0-f1c5-bfb4-bd7b"},
+              {"name": "Defence", "$text": "2", "typeId": "be63-ff64-ba5b-c1a7"},
+              {"name": "Hull", "$text": "6", "typeId": "069f-fec8-3c05-5536"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Panther",
+        "id": "aee3-d527-be14-6826",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [{"id": "aee3-d527-be14-6826-ec54-8048-6c51-a561", "primary": true, "targetId": "ec54-8048-6c51-a561"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 32}],
+        "entryLinks": [
+          {
+            "id": "ffd6-7742-47d1-9a56",
+            "targetId": "b727-97b0-14bd-9c81",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "repeats": [{"childId": "75ca-1327-3879-1bc7", "field": "selections", "repeats": 1, "scope": "aee3-d527-be14-6826", "shared": true, "value": 1}]
+              }
+            ]
+          },
+          {"id": "6876-98d1-0127-dcb3", "targetId": "2428-4f6c-fae2-dd78", "type": "selectionEntryGroup"},
+          {"id": "7d2a-0a56-f4a4-eb9d", "targetId": "4bda-64fa-37c1-f5fb", "type": "selectionEntryGroup"},
+          {"id": "38ef-b7c2-a497-af41", "targetId": "7bab-0b86-2b2f-f802", "type": "selectionEntryGroup"},
+          {"id": "1f0b-9107-28fa-41b5", "targetId": "6f10-2708-2b92-12eb", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [{"id": "883a-26c2-3e80-35eb", "targetId": "19ea-115a-c70f-b3a5", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Panther",
+            "id": "800e-f8be-6cb9-9774",
+            "hidden": false,
+            "typeId": "1608-9b63-32a3-014d",
+            "characteristics": [
+              {"name": "Crew Slots", "$text": "4", "typeId": "69d0-b24a-3442-a3ef"},
+              {"name": "Initiative", "$text": "7", "typeId": "0f1a-0bd2-879f-d5c7"},
+              {"name": "Attack", "$text": "5", "typeId": "99d0-f1c5-bfb4-bd7b"},
+              {"name": "Defence", "$text": "2", "typeId": "be63-ff64-ba5b-c1a7"},
+              {"name": "Hull", "$text": "6", "typeId": "069f-fec8-3c05-5536"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Panzer IV",
+        "id": "93c5-6639-816f-a9fa",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [{"id": "93c5-6639-816f-a9fa-a5e9-1cde-c0aa-5b67", "primary": true, "targetId": "a5e9-1cde-c0aa-5b67"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 17}],
+        "entryLinks": [
+          {
+            "id": "49a3-6013-38a7-31b7",
+            "targetId": "b727-97b0-14bd-9c81",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "repeats": [{"childId": "75ca-1327-3879-1bc7", "field": "selections", "repeats": 1, "scope": "93c5-6639-816f-a9fa", "shared": true, "value": 1}]
+              }
+            ]
+          },
+          {"id": "d65e-2981-2a9d-b207", "targetId": "2428-4f6c-fae2-dd78", "type": "selectionEntryGroup"},
+          {"id": "c9c8-7474-a318-b04a", "targetId": "4bda-64fa-37c1-f5fb", "type": "selectionEntryGroup"},
+          {"id": "9785-bb6a-ba67-4e31", "targetId": "7bab-0b86-2b2f-f802", "type": "selectionEntryGroup"},
+          {"id": "3c3e-f432-b19e-69e2", "targetId": "6f10-2708-2b92-12eb", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [{"id": "3a24-9877-93f3-0977", "targetId": "19ea-115a-c70f-b3a5", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Panzer IV",
+            "id": "69d3-f34b-380a-3407",
+            "hidden": false,
+            "typeId": "1608-9b63-32a3-014d",
+            "characteristics": [
+              {"name": "Crew Slots", "$text": "4", "typeId": "69d0-b24a-3442-a3ef"},
+              {"name": "Initiative", "$text": "5", "typeId": "0f1a-0bd2-879f-d5c7"},
+              {"name": "Attack", "$text": "4", "typeId": "99d0-f1c5-bfb4-bd7b"},
+              {"name": "Defence", "$text": "1", "typeId": "be63-ff64-ba5b-c1a7"},
+              {"name": "Hull", "$text": "5", "typeId": "069f-fec8-3c05-5536"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "StuG G",
+        "id": "ccd4-a713-d189-234b",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [{"id": "ccd4-a713-d189-234b-b321-94f1-cb73-712c", "primary": true, "targetId": "b321-94f1-cb73-712c"}],
+        "costs": [{"name": "pts", "typeId": "points", "value": 15}],
+        "entryLinks": [
+          {
+            "id": "d575-e545-9295-7815",
+            "targetId": "b727-97b0-14bd-9c81",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "maxSelections",
+                "type": "increment",
+                "value": 1,
+                "repeats": [{"childId": "75ca-1327-3879-1bc7", "field": "selections", "repeats": 1, "scope": "ccd4-a713-d189-234b", "shared": true, "value": 1}]
+              }
+            ]
+          },
+          {"id": "489f-1ec3-8248-166a", "targetId": "2428-4f6c-fae2-dd78", "type": "selectionEntryGroup"},
+          {"id": "4210-1919-2796-421b", "targetId": "4bda-64fa-37c1-f5fb", "type": "selectionEntryGroup"},
+          {"id": "420b-51a7-090e-0448", "targetId": "7bab-0b86-2b2f-f802", "type": "selectionEntryGroup"},
+          {"id": "3797-995e-7359-4e95", "targetId": "feca-21b8-51cb-e7c8", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [
+          {"id": "5838-e270-7261-59f6", "targetId": "19ea-115a-c70f-b3a5", "type": "rule"},
+          {"id": "4752-a9d7-5b5e-e3d5", "targetId": "e242-8522-ef2a-7674", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "StuG G",
+            "id": "953e-beb5-ae25-648a",
+            "hidden": false,
+            "typeId": "1608-9b63-32a3-014d",
+            "characteristics": [
+              {"name": "Crew Slots", "$text": "3", "typeId": "69d0-b24a-3442-a3ef"},
+              {"name": "Initiative", "$text": "3", "typeId": "0f1a-0bd2-879f-d5c7"},
+              {"name": "Attack", "$text": "4", "typeId": "99d0-f1c5-bfb4-bd7b"},
+              {"name": "Defence", "$text": "1", "typeId": "be63-ff64-ba5b-c1a7"},
+              {"name": "Hull", "$text": "5", "typeId": "069f-fec8-3c05-5536"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {"name": "Assault Gun", "id": "e242-8522-ef2a-7674", "hidden": false},
+      {
+        "name": "Blitzkrieg",
+        "id": "19ea-115a-c70f-b3a5",
+        "description": "This tank may make a single Move instead of making a Repair Damage roll in the Command Phase.",
+        "hidden": false
+      },
+      {"name": "Fast", "id": "70d8-34f5-088a-1249", "description": "Tank may make up to three Moves.", "hidden": false}
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Add-on Armour",
+        "id": "fefb-f2cb-ce67-6f8e",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 5}],
+        "profiles": [
+          {
+            "name": "Add-on Armour",
+            "id": "24b2-dce4-09bd-02ed",
+            "hidden": false,
+            "typeId": "3ea3-8341-e8bf-1773",
+            "characteristics": [
+              {
+                "name": "Upgrade: Armour Ability",
+                "$text": "-1 Initiative. Loses the Fast keyword. When defending this tank may re-roll any one Defence die.",
+                "typeId": "1535-b8f4-bb51-61a6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Agressive Commander",
+        "id": "f4b7-50b9-c3a8-cf21",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "profiles": [
+          {
+            "name": "Agressive Commander",
+            "id": "b52f-41f8-d7f7-aee1",
+            "hidden": false,
+            "typeId": "8482-2824-696e-d5ce",
+            "characteristics": [{"name": "Crew: Commander Ability", "$text": "+1 Initiative in the Shooting Phase.", "typeId": "2c97-7aef-546c-7aab"}]
+          }
+        ]
+      },
+      {
+        "name": "Agressive Loader",
+        "id": "30e7-0bff-9336-d48c",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "profiles": [
+          {
+            "name": "Agressive Loader",
+            "id": "a714-ce42-6c56-a674",
+            "hidden": false,
+            "typeId": "3565-f1dc-14d1-0df3",
+            "characteristics": [{"name": "Crew: Loader Ability", "$text": "+1 Initiative in the Shooting Phase.", "typeId": "be71-fe7b-ddb7-34f3"}]
+          }
+        ]
+      },
+      {
+        "name": "Bigger Hammer",
+        "id": "21e7-7571-3e7e-e29c",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "profiles": [
+          {
+            "name": "Bigger Hammer",
+            "id": "c9af-8359-7bc8-1e1c",
+            "hidden": false,
+            "typeId": "f4f0-84f0-0dd9-c893",
+            "characteristics": [{"name": "Upgrade: Equipment Ability", "$text": "Discard to cancel a Busted Track, Damaged Engine, or Jammed Turret effect.", "typeId": "99aa-04d2-4179-4567"}]
+          }
+        ]
+      },
+      {
+        "name": "Bloodthirsty Gunner",
+        "id": "2f64-1f57-de88-27fd",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 3}],
+        "profiles": [
+          {
+            "name": "Bloodthirsty Gunner",
+            "id": "7c4c-d334-ad56-22f7",
+            "hidden": false,
+            "typeId": "a30c-26b6-2664-539a",
+            "characteristics": [{"name": "Crew: Gunner Ability", "$text": "+1 Attack if target at Short Range.", "typeId": "677f-3696-69cc-30fe"}]
+          }
+        ]
+      },
+      {
+        "name": "Camouflage Netting",
+        "id": "d027-d9bd-b89a-78da",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 4}],
+        "profiles": [
+          {
+            "name": "Camouflage Netting",
+            "id": "d907-e3c2-ec8a-350e",
+            "hidden": false,
+            "typeId": "3ea3-8341-e8bf-1773",
+            "characteristics": [
+              {
+                "name": "Upgrade: Armour Ability",
+                "$text": "+1 Defence if stationary. Discard this card the first time this tank takes damage",
+                "typeId": "1535-b8f4-bb51-61a6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cleaver Loader",
+        "id": "64dd-a2cd-f0d5-11fc",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "profiles": [
+          {
+            "name": "Cleaver Loader",
+            "id": "3b76-55ed-79ea-9fdb",
+            "hidden": false,
+            "typeId": "3565-f1dc-14d1-0df3",
+            "characteristics": [
+              {
+                "name": "Crew: Loader Ability",
+                "$text": "If you discard an Ammo Upgrade card when shooting, but do not score and Hits or Critical Hits, return the Upgrade card to the tank.",
+                "typeId": "be71-fe7b-ddb7-34f3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Concrete Armour",
+        "id": "c5e5-bad9-c85e-bb03",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 3}],
+        "profiles": [
+          {
+            "name": "Concrete Armour",
+            "id": "4128-0bef-1087-5a71",
+            "hidden": false,
+            "typeId": "3ea3-8341-e8bf-1773",
+            "characteristics": [{"name": "Upgrade: Armour Ability", "$text": "Loses the Fast keyword. Discard to cancel a Critical Hit.", "typeId": "1535-b8f4-bb51-61a6"}]
+          }
+        ]
+      },
+      {
+        "name": "Cunning Commander",
+        "id": "7c95-1dd0-a1ba-c453",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "profiles": [
+          {
+            "name": "Cunning Commander",
+            "id": "6a61-13f3-6637-e928",
+            "hidden": false,
+            "typeId": "8482-2824-696e-d5ce",
+            "characteristics": [{"name": "Crew: Commander Ability", "$text": "+1 Initiative in the Movement Phase.", "typeId": "2c97-7aef-546c-7aab"}]
+          }
+        ]
+      },
+      {
+        "name": "Cunning Driver",
+        "id": "7fbe-4f90-9d73-d876",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "profiles": [
+          {
+            "name": "Cunning Driver",
+            "id": "be42-6299-5381-b146",
+            "hidden": false,
+            "typeId": "3927-7310-5562-b500",
+            "characteristics": [{"name": "New Characteristic", "$text": "+1 Initiative in the Movement Phase.", "typeId": "c69e-64e6-e0fa-3b6f"}]
+          }
+        ]
+      },
+      {
+        "name": "Dead-Eye Gunner",
+        "id": "ab2f-f230-4f5a-0d8e",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 3}],
+        "profiles": [
+          {
+            "name": "Dead-Eye Gunner",
+            "id": "aa3a-cad7-c856-5c8a",
+            "hidden": false,
+            "typeId": "a30c-26b6-2664-539a",
+            "characteristics": [{"name": "Crew: Gunner Ability", "$text": "This tank may upgrade one uncancelled Hit to a Critical Hit", "typeId": "677f-3696-69cc-30fe"}]
+          }
+        ]
+      },
+      {
+        "name": "Deadly Gunner",
+        "id": "3096-1d77-158e-91fe",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 4}],
+        "profiles": [
+          {
+            "name": "Deadly Gunner",
+            "id": "d3e2-9f33-09f7-0858",
+            "hidden": false,
+            "typeId": "a30c-26b6-2664-539a",
+            "characteristics": [
+              {
+                "name": "Crew: Gunner Ability",
+                "$text": "if this tank scores any uncancelled Critical Hits, you may exchange one Critical Hit for two Hits.",
+                "typeId": "677f-3696-69cc-30fe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Extra Ammunition",
+        "id": "f1ca-e34c-e951-e368",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 2},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 3}],
+        "profiles": [
+          {
+            "name": "Extra Ammunition",
+            "id": "e019-9fa7-a6ad-41c6",
+            "hidden": false,
+            "typeId": "da49-5409-84bf-5584",
+            "characteristics": [
+              {
+                "name": "Ammo Ability",
+                "$text": "Discard this card to re-roll all of your Attack dice. If this tank takes an uncancelled Hit, the shooting player may upgrade the first uncancelled Hit to a Critical hit.",
+                "typeId": "217f-e003-7202-1fb0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fire Extinguisher",
+        "id": "c49f-749f-3ea6-0a3c",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "profiles": [
+          {
+            "name": "Fire Extinguisher",
+            "id": "eb46-7a33-92b4-72a5",
+            "hidden": false,
+            "typeId": "f4f0-84f0-0dd9-c893",
+            "characteristics": [{"name": "Upgrade: Equipment Ability", "$text": "Discard to cancel a Engine Fire effect.", "typeId": "99aa-04d2-4179-4567"}]
+          }
+        ]
+      },
+      {
+        "name": "Hasty Loader",
+        "id": "eddd-ea3c-4e72-b627",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}],
+        "profiles": [
+          {
+            "name": "Hasty Loader",
+            "id": "acef-4844-c936-7d02",
+            "hidden": false,
+            "typeId": "3565-f1dc-14d1-0df3",
+            "characteristics": [{"name": "Crew: Loader Ability", "$text": "+2 Initiative in the Shooting Phase. -1 Initiative in the Movement Phase.", "typeId": "be71-fe7b-ddb7-34f3"}]
+          }
+        ]
+      },
+      {
+        "name": "Improvised Armour",
+        "id": "c00a-7037-586a-5c0f",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}],
+        "profiles": [
+          {
+            "name": "Improvised Armour",
+            "id": "1041-375a-83ee-93e6",
+            "hidden": false,
+            "typeId": "3ea3-8341-e8bf-1773",
+            "characteristics": [{"name": "Upgrade: Armour Ability", "$text": "Loses the Fast keyword. +1 Hull.", "typeId": "1535-b8f4-bb51-61a6"}]
+          }
+        ]
+      },
+      {
+        "name": "Liquid Courage",
+        "id": "343b-76aa-819b-0539",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "profiles": [
+          {
+            "name": "Liquid Courage",
+            "id": "bef0-9598-f52e-c9f0",
+            "hidden": false,
+            "typeId": "f4f0-84f0-0dd9-c893",
+            "characteristics": [
+              {
+                "name": "Upgrade: Equipment Ability",
+                "$text": "This tank may re-roll failed Repair rolls for Bailed Out, Shell Shocked, and Stunned Crew.",
+                "typeId": "99aa-04d2-4179-4567"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Medical Kit",
+        "id": "9c32-c2b8-be3b-4989",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "profiles": [
+          {
+            "name": "Medical Kit",
+            "id": "71e1-adbc-6fc7-4bb5",
+            "hidden": false,
+            "typeId": "f4f0-84f0-0dd9-c893",
+            "characteristics": [{"name": "Upgrade: Equipment Ability", "$text": "Discard to cancel an Injured Crew effect.", "typeId": "99aa-04d2-4179-4567"}]
+          }
+        ]
+      },
+      {
+        "name": "Precise Commander",
+        "id": "1599-fd3a-1edd-5d9f",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 4}],
+        "profiles": [
+          {
+            "name": "Precise Commander",
+            "id": "f86a-0929-19ab-a97b",
+            "hidden": false,
+            "typeId": "8482-2824-696e-d5ce",
+            "characteristics": [{"name": "Crew: Commander Ability", "$text": "You may re-roll one Attack die per turn.", "typeId": "2c97-7aef-546c-7aab"}]
+          }
+        ]
+      },
+      {
+        "name": "Precise Loader",
+        "id": "fa78-3905-f703-317c",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 4}],
+        "profiles": [
+          {
+            "name": "Precise Loader",
+            "id": "5b17-48e8-7df6-8b45",
+            "hidden": false,
+            "typeId": "3565-f1dc-14d1-0df3",
+            "characteristics": [{"name": "Crew: Loader Ability", "$text": "You may re-roll one Attack die per turn.", "typeId": "be71-fe7b-ddb7-34f3"}]
+          }
+        ]
+      },
+      {
+        "name": "Racing Driver",
+        "id": "103f-b0a9-3abf-649e",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}],
+        "profiles": [
+          {
+            "name": "Racing Driver",
+            "id": "d86a-310a-240a-f1fa",
+            "hidden": false,
+            "typeId": "3927-7310-5562-b500",
+            "characteristics": [{"name": "New Characteristic", "$text": "+2 Initiative in the Movement Phase. -1 Initiative in the Shooting Phase.", "typeId": "c69e-64e6-e0fa-3b6f"}]
+          }
+        ]
+      },
+      {
+        "name": "Radio Coordinator",
+        "id": "a3d0-48e2-1cb6-f1f0",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 3}],
+        "profiles": [
+          {
+            "name": "Radio Coordinator",
+            "id": "147a-dd7f-9af2-3707",
+            "hidden": false,
+            "typeId": "4197-65d7-a914-50b9",
+            "characteristics": [{"name": "Crew: Radio Op Ability", "$text": "During the Shooting Phase, another frendly tank gains this tank's Initiative.", "typeId": "c829-59ff-13e5-c078"}]
+          }
+        ]
+      },
+      {
+        "name": "Resourceful Loader",
+        "id": "75ca-1327-3879-1bc7",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "profiles": [
+          {
+            "name": "Resourceful Loader",
+            "id": "3616-21d6-3be4-7b9b",
+            "hidden": false,
+            "typeId": "3565-f1dc-14d1-0df3",
+            "characteristics": [
+              {
+                "name": "Crew: Loader Ability",
+                "$text": "This tank may have two of the same Ammo Upgrade cards. you may only use one of these each turn.",
+                "typeId": "be71-fe7b-ddb7-34f3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sandbag Armour",
+        "id": "81f0-48e0-a61a-13ba",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 3}],
+        "profiles": [
+          {
+            "name": "Sandbag Armour",
+            "id": "9ca6-1ebb-c1b9-1415",
+            "hidden": false,
+            "typeId": "3ea3-8341-e8bf-1773",
+            "characteristics": [{"name": "Upgrade: Armour Ability", "$text": "Discard this card to re-roll all of your Defense dice.", "typeId": "1535-b8f4-bb51-61a6"}]
+          }
+        ]
+      },
+      {
+        "name": "Sharpshooter Gunner",
+        "id": "a14a-9e1b-c951-7d3d",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 5}],
+        "profiles": [
+          {
+            "name": "Sharpshooter Gunner",
+            "id": "cf38-e034-ce9a-ee38",
+            "hidden": false,
+            "typeId": "a30c-26b6-2664-539a",
+            "characteristics": [
+              {
+                "name": "Crew: Gunner Ability",
+                "$text": "When drawing Critical cards for the first uncancelled Critical Hit scored by this tank, draw one additional card. The attacking player chooses one of thoes Critical cards to discard.",
+                "typeId": "677f-3696-69cc-30fe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Superb Commander",
+        "id": "18c2-6f1b-2392-16e1",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}],
+        "profiles": [
+          {
+            "name": "Superb Commander",
+            "id": "9854-caed-d19b-e0ba",
+            "hidden": false,
+            "typeId": "8482-2824-696e-d5ce",
+            "characteristics": [{"name": "Crew: Commander Ability", "$text": "+1 Initiative.", "typeId": "2c97-7aef-546c-7aab"}]
+          }
+        ]
+      },
+      {
+        "name": "Supercharger",
+        "id": "e565-6558-301c-6d42",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}],
+        "infoLinks": [{"id": "1ad5-529a-26b6-a862", "targetId": "70d8-34f5-088a-1249", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Supercharger",
+            "id": "d55e-9cf9-cffe-a826",
+            "hidden": false,
+            "typeId": "5abf-51c8-4787-8409",
+            "characteristics": [{"name": "Upgrade: Engine Ability", "$text": "Discard to gain Fast for this Movement Phase.", "typeId": "ee41-6082-4210-e823"}]
+          }
+        ]
+      },
+      {
+        "name": "Tool Kit",
+        "id": "370c-30e5-b9e2-dd0f",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 1}],
+        "profiles": [
+          {
+            "name": "Tool Kit",
+            "id": "fc39-cc0c-913d-cc48",
+            "hidden": false,
+            "typeId": "f4f0-84f0-0dd9-c893",
+            "characteristics": [
+              {
+                "name": "Upgrade: Equipment Ability",
+                "$text": "This tank may re-roll failed Repair rolls for Busted Track, Damaged Engine, and Jammed Turret.",
+                "typeId": "99aa-04d2-4179-4567"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tungsten Shot",
+        "id": "4bde-3a97-9a81-7982",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 2},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 2}],
+        "profiles": [
+          {
+            "name": "Tungsten Shot",
+            "id": "0371-8006-3443-a5ce",
+            "hidden": false,
+            "typeId": "da49-5409-84bf-5584",
+            "characteristics": [
+              {
+                "name": "Ammo Ability",
+                "$text": "Discard to gain +1 Attack. If you roll two or more 1's with this Attack, the whole Attack misses.",
+                "typeId": "217f-e003-7202-1fb0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "• 'Bobby' Woll",
+        "id": "fb1b-081c-eac0-71c4",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 5}],
+        "profiles": [
+          {
+            "name": "• 'Bobby' Woll",
+            "id": "e4eb-c233-bbf2-0101",
+            "hidden": false,
+            "typeId": "a30c-26b6-2664-539a",
+            "characteristics": [
+              {
+                "name": "Crew: Gunner Ability",
+                "$text": "If this tank scores an uncancelled Hit or Critical hit with its first Attack, shoot again with a (Attack) 3 die against a new target within a Measuring Stick of the first.",
+                "typeId": "677f-3696-69cc-30fe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "• Dr Franz Bäke",
+        "id": "1622-f166-bc83-b9e4",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 6}],
+        "profiles": [
+          {
+            "name": "• Dr Franz Bäke",
+            "id": "1f1c-e9dc-25ed-5def",
+            "hidden": false,
+            "typeId": "8482-2824-696e-d5ce",
+            "characteristics": [
+              {
+                "name": "Crew: Commander Ability",
+                "$text": "+1 Attack if the target is at Close Range. Before the game this tank may make a normal move.",
+                "typeId": "2c97-7aef-546c-7aab"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "• Ernst Barkmann",
+        "id": "93ad-32a2-70aa-907c",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 8}],
+        "profiles": [
+          {
+            "name": "• Ernst Barkmann",
+            "id": "c16f-d8af-bb8a-a433",
+            "hidden": false,
+            "typeId": "8482-2824-696e-d5ce",
+            "characteristics": [
+              {
+                "name": "Crew: Commander Ability",
+                "$text": "If this tank does not score any uncancelled Hits or Critical Hits with its first Attack, make another Attack.  This tank may attempt a Repair while using the Blitzkrieg rule.",
+                "typeId": "2c97-7aef-546c-7aab"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "• Fritz Biermeyer",
+        "id": "3743-f2d4-7414-b66d",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 8}],
+        "profiles": [
+          {
+            "name": "• Fritz Biermeyer",
+            "id": "741a-4d46-e0af-8173",
+            "hidden": false,
+            "typeId": "8482-2824-696e-d5ce",
+            "characteristics": [
+              {
+                "name": "Crew: Commander Ability",
+                "$text": "+2 Initiative during the Movement Phase. This tank has +1 Defense when defending from an attack at Close Range.",
+                "typeId": "2c97-7aef-546c-7aab"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "• Josef-Wilhrelm Rettemeier",
+        "id": "56ab-6fc4-b145-4e11",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 6}],
+        "profiles": [
+          {
+            "name": "• Josef-Wilhrelm Rettemeier",
+            "id": "0827-e05b-177f-559b",
+            "hidden": false,
+            "typeId": "8482-2824-696e-d5ce",
+            "characteristics": [{"name": "Crew: Commander Ability", "$text": "+2 Initiative in the Shooting Phase. You may re-roll one Attack die per turn.", "typeId": "2c97-7aef-546c-7aab"}]
+          }
+        ]
+      },
+      {
+        "name": "• Michael Wittmann",
+        "id": "dda6-f151-6313-952d",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "costs": [{"name": "pts", "typeId": "points", "value": 11}],
+        "profiles": [
+          {
+            "name": "• Michael Wittmann",
+            "id": "dae3-eabf-166b-c5bd",
+            "hidden": false,
+            "typeId": "8482-2824-696e-d5ce",
+            "characteristics": [
+              {
+                "name": "Crew: Commander Ability",
+                "$text": "+1 Initiative. +1 Attack. This tank re-rolls failed attermpts to Repair Bailed Out and Stunned Crew effects.",
+                "typeId": "2c97-7aef-546c-7aab"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Crew (3)",
+        "id": "feca-21b8-51cb-e7c8",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 3},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "6b23-2b8e-7da2-4bf0", "targetId": "cfa5-dd84-9cf0-9efa", "type": "selectionEntryGroup"},
+          {"id": "0384-2a5a-e282-10ec", "targetId": "4e7d-4838-3326-7977", "type": "selectionEntryGroup"},
+          {"id": "1d2f-73d6-d2c1-daba", "targetId": "5557-0c19-5568-7bb2", "type": "selectionEntryGroup"},
+          {"id": "2aae-27fd-ee2b-c90f", "targetId": "8f17-d297-ee6f-b5ee", "type": "selectionEntryGroup"},
+          {"id": "9177-e181-85fe-4df2", "targetId": "bbf6-edaa-b154-a0fa", "type": "selectionEntryGroup"}
+        ]
+      },
+      {
+        "name": "Crew (4)",
+        "id": "6f10-2708-2b92-12eb",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 4},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "6703-f849-8f65-8c4a", "targetId": "cfa5-dd84-9cf0-9efa", "type": "selectionEntryGroup"},
+          {"id": "e799-367f-6107-a38b", "targetId": "bbf6-edaa-b154-a0fa", "type": "selectionEntryGroup"},
+          {"id": "5415-4120-f305-e28a", "targetId": "8f17-d297-ee6f-b5ee", "type": "selectionEntryGroup"},
+          {"id": "e547-a9ec-1226-de15", "targetId": "4e7d-4838-3326-7977", "type": "selectionEntryGroup"},
+          {"id": "2c8f-6bd0-f5bf-dc34", "targetId": "5557-0c19-5568-7bb2", "type": "selectionEntryGroup"}
+        ]
+      },
+      {
+        "name": "Crew: Commander",
+        "id": "cfa5-dd84-9cf0-9efa",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "e62c-ce47-9243-e97f", "targetId": "f4b7-50b9-c3a8-cf21", "type": "selectionEntry"},
+          {"id": "a633-f9b9-d6e3-52bd", "targetId": "7c95-1dd0-a1ba-c453", "type": "selectionEntry"},
+          {"id": "9dd7-e500-0716-57cd", "targetId": "18c2-6f1b-2392-16e1", "type": "selectionEntry"},
+          {"id": "997c-7d1d-dbdb-693b", "targetId": "1599-fd3a-1edd-5d9f", "type": "selectionEntry"},
+          {"id": "a21d-bedb-f318-1123", "targetId": "dda6-f151-6313-952d", "type": "selectionEntry"},
+          {"id": "4153-60d0-8717-66ab", "targetId": "93ad-32a2-70aa-907c", "type": "selectionEntry"},
+          {"id": "e041-77a0-f1a9-11e5", "targetId": "56ab-6fc4-b145-4e11", "type": "selectionEntry"},
+          {"id": "8912-b883-8959-c2be", "targetId": "3743-f2d4-7414-b66d", "type": "selectionEntry"},
+          {"id": "d493-d4ab-2a32-7c35", "targetId": "1622-f166-bc83-b9e4", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Crew: Driver",
+        "id": "4e7d-4838-3326-7977",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "dd74-c851-459d-ad64", "targetId": "103f-b0a9-3abf-649e", "type": "selectionEntry"},
+          {"id": "a4b0-94fc-278a-86f0", "targetId": "7fbe-4f90-9d73-d876", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Crew: Gunner",
+        "id": "5557-0c19-5568-7bb2",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "6442-361b-f9ce-a584", "targetId": "2f64-1f57-de88-27fd", "type": "selectionEntry"},
+          {"id": "4b89-7e53-4577-b259", "targetId": "a14a-9e1b-c951-7d3d", "type": "selectionEntry"},
+          {"id": "2fc4-fd95-86c1-0756", "targetId": "ab2f-f230-4f5a-0d8e", "type": "selectionEntry"},
+          {"id": "1027-e194-b0fa-a1e9", "targetId": "fb1b-081c-eac0-71c4", "type": "selectionEntry"},
+          {"id": "b3a8-d740-d4b9-55cc", "targetId": "3096-1d77-158e-91fe", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Crew: Loader",
+        "id": "8f17-d297-ee6f-b5ee",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "2186-66c7-8a44-8506", "targetId": "75ca-1327-3879-1bc7", "type": "selectionEntry"},
+          {"id": "84dd-8f22-c9d5-3de3", "targetId": "64dd-a2cd-f0d5-11fc", "type": "selectionEntry"},
+          {"id": "e6b2-0137-0f17-11e6", "targetId": "eddd-ea3c-4e72-b627", "type": "selectionEntry"},
+          {"id": "a9f8-10ee-c7cf-755c", "targetId": "30e7-0bff-9336-d48c", "type": "selectionEntry"},
+          {"id": "494f-771f-7ce9-6967", "targetId": "fa78-3905-f703-317c", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Crew: Radio Op",
+        "id": "bbf6-edaa-b154-a0fa",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [{"id": "fa14-17a1-d627-e3f0", "targetId": "a3d0-48e2-1cb6-f1f0", "type": "selectionEntry"}]
+      },
+      {
+        "name": "Upgrade: Ammo",
+        "id": "b727-97b0-14bd-9c81",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "e63d-33f3-43a2-0829", "targetId": "4bde-3a97-9a81-7982", "type": "selectionEntry"},
+          {"id": "8c1d-1804-2b55-c295", "targetId": "f1ca-e34c-e951-e368", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Upgrade: Armour",
+        "id": "4bda-64fa-37c1-f5fb",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "8e10-2647-f400-bb62", "targetId": "81f0-48e0-a61a-13ba", "type": "selectionEntry"},
+          {"id": "c0e4-8bd7-a265-7554", "targetId": "c00a-7037-586a-5c0f", "type": "selectionEntry"},
+          {"id": "2ec6-cdaf-8e58-1ac6", "targetId": "c5e5-bad9-c85e-bb03", "type": "selectionEntry"},
+          {"id": "caf2-6ce3-4f00-0385", "targetId": "d027-d9bd-b89a-78da", "type": "selectionEntry"},
+          {"id": "195c-b13c-ec81-c19f", "targetId": "fefb-f2cb-ce67-6f8e", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Upgrade: Engine",
+        "id": "7bab-0b86-2b2f-f802",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [{"id": "3afe-d4d9-0784-0dd5", "targetId": "e565-6558-301c-6d42", "type": "selectionEntry"}]
+      },
+      {
+        "name": "Upgrade: Equipment",
+        "id": "2428-4f6c-fae2-dd78",
+        "collective": false,
+        "hidden": false,
+        "constraints": [
+          {"id": "minSelections", "field": "selections", "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxSelections", "field": "selections", "scope": "parent", "type": "max", "value": 1},
+          {"id": "minInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInForce", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": -1},
+          {"id": "minInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "min", "value": 0},
+          {"id": "maxInRoster", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": -1},
+          {"id": "minPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "min", "value": 0},
+          {"id": "maxPoints", "field": "points", "includeChildSelections": true, "scope": "parent", "type": "max", "value": -1}
+        ],
+        "entryLinks": [
+          {"id": "6ae4-01a5-ebd6-4681", "targetId": "c49f-749f-3ea6-0a3c", "type": "selectionEntry"},
+          {"id": "4969-4be0-5058-d318", "targetId": "9c32-c2b8-be3b-4989", "type": "selectionEntry"},
+          {"id": "deb0-1848-e8de-da53", "targetId": "21e7-7571-3e7e-e29c", "type": "selectionEntry"},
+          {"id": "baa6-b1e5-28ac-3d6c", "targetId": "370c-30e5-b9e2-dd0f", "type": "selectionEntry"},
+          {"id": "1536-0527-c070-c7c8", "targetId": "343b-76aa-819b-0539", "type": "selectionEntry"}
+        ]
+      }
+    ]
+  }
+}
